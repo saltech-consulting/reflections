@@ -3,3 +3,18 @@ A: It creates a git repo. It's needed for tracking the changes. :-)
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: It decouples the files your currently working on from all the files in the repo.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: Just add the files that you want to commit to staging area and nothing else.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: When I want to try something different, experimental
+
+Q: How do the diagrams help you visualize the branch structure?
+A: Makes it easier to understand the concept.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: It keeps track of the history.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: Automatic merge saves a lot of time in unambiguous cases. Manual merge gives more flexibility to resolve conflicts.
